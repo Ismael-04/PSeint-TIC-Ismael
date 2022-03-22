@@ -14,18 +14,16 @@ Algoritmo Edad
 	aux=edadJose
 	edadJose = edadJuan
 	edadJuan=aux
-	//Escribir edad preguntada.
-	Escribir "La edad de Juan es ",edadJuan ," años."
-	Escribir "La edad de Jose es ",edadJose ,"años."
+
 	//Myoría y mioría de edad
 	Si edadJuan>=18 Entonces
-		Escribir"Juan es mayor de edad."
+		Escribir"Juan es mayor de edad y su edad es ", edadJuan," años"
 	SiNo
-		Escribir"Juan es menor de edad."
+		Escribir"Juan es menor de edad y su edad es ", edadJuan," años"
 	Fin Si
 	Si edadJose>=18 Entonces
-		Escribir"Jose es mayor de edad."
+		Escribir"Jose es mayor de edad y su edad es ", edadJose," años"
 	SiNo
-		Escribir"Jose es menor de edad."
+		Escribir"Jose es menor de edad y su edad es ", edadJuan," años"
 	Fin Si
 FinAlgoritmo
